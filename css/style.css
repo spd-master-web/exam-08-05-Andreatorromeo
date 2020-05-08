@@ -5,9 +5,9 @@
 /* .ui-grid-container-two {
   background-image: url("/images/grid-2.png");
 } */
-.ui-grid-container-three {
+/* .ui-grid-container-three {
   background-image: url("/images/grid-3.png");
-}
+} */
 /* your CSS goes here */
 
 /* FIRST GRID */
@@ -33,4 +33,25 @@
 
 .pink {
   background-color: #ed64a4;
+}
+
+/* THIRD GRID */
+.ui-grid-container-three {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  position: relative;
+}
+
+.title {
+  font-size: 5em;
+  font-weight: bold;
+  position: absolute;
+  right: 282px;
+  top: 420px;
+  z-index: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d0166d;
+  text-shadow: 2px 2px 0px #fff;
 }
