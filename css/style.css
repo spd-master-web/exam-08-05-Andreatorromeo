@@ -2,14 +2,15 @@
 /* .ui-grid-container-one {
   background-image: url("/images/grid-1.png");
 } */
-.ui-grid-container-two {
+/* .ui-grid-container-two {
   background-image: url("/images/grid-2.png");
-}
+} */
 .ui-grid-container-three {
   background-image: url("/images/grid-3.png");
 }
 /* your CSS goes here */
 
+/* FIRST GRID */
 .ui-grid-container-one {
   width: 500px;
   height: 500px;
@@ -20,4 +21,16 @@
 
 .blue {
   background-color: #6495ed;
+}
+/* SECOND GRID */
+.ui-grid-container-two {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(5, 100px);
+}
+
+.pink {
+  background-color: #ed64a4;
 }
